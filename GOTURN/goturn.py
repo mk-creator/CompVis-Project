@@ -9,6 +9,7 @@ tracker = cv2.TrackerGOTURN_create()
 
 initBB = None
 
+#Replace 'test_vid.mp4' with name of video desired
 vs = cv2.VideoCapture('test_vid.mp4')
 fps = None
 counter = 1
