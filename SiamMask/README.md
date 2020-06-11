@@ -1,10 +1,9 @@
 # SiamMask.
 
-TensorFlow port of [SiamMask](https://arxiv.org/abs/1812.05050). Mask branch is yet to be added.
-
-Pre-trained models were ported from PyTorch to TensorFlow and can be downloaded [here](https://drive.google.com/open?id=1YQNXJgezEciQbN0Mwyta50UzVamNjswe). Many functions for tracking and processing outside the trained models were
-taken directly (at most with minor modification) from the [SiamMask Github](https://github.com/foolwood/SiamMask).
-
-The demo (after downloading the model into the `saved_model` folder) can be run as:
+- First it is required to install TensorFlow on Jetson Nano for which there is a guide [here] (https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html)
+- Pre-trained models can be downloaded [here](https://drive.google.com/open?id=1YQNXJgezEciQbN0Mwyta50UzVamNjswe). 
+- Most of the code without change was taken from [katalinic Github](https://github.com/katalinic/siammask).
+- Download the pre-trained models into 'saved_model' folder
+- The demo can be run by:
 
 `$ python3 demo.py`
